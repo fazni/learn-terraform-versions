@@ -14,10 +14,6 @@ terraform {
   required_version = "~> 0.12.29"
 }
 
-provider "aws" {
-  region = "us-west-2"
-}
-
 provider "random" {}
 
 resource "random_pet" "name" {}
