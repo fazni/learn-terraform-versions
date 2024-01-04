@@ -7,6 +7,7 @@ resource "random_pet" "server_output" {
   override_special = "/@£$"
 }
 
-resource "output" {
-value = random_pet.server_output.id
+output "instance_ip_addr" {
+  value = random_pet.server_output.id
 }
+
