@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: MPL-2.0
 
 resource "random_string" "server_output" {
-  length           = 16
+  length           = 160
   special          = true
   override_special = "/@£$"
 }
