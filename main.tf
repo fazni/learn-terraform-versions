@@ -12,5 +12,5 @@ output "instance_ip_addr" {
 }
 
 output "variabletest" {
-value = "Hello, ${var.test}!"
+value = "Hello, ${random_string.server_output.id}!"
 }
