@@ -8,6 +8,6 @@ resource "random_string" "server_output" {
 }
 
 output "instance_ip_addr" {
-  value = random_pet.server_output.id
+  value = random_string.server_output.id
 }
 
