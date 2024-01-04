@@ -11,3 +11,6 @@ output "instance_ip_addr" {
   value = random_string.server_output.id
 }
 
+output "variabletest" {
+value = "Hello, ${var.test}!"
+}
